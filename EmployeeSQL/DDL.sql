@@ -67,7 +67,7 @@ CREATE TABLE "salary" (
     "from_date" date   NOT NULL,
     "to_date" date   NOT NULL,
     CONSTRAINT "pk_salary" PRIMARY KEY (
-        "employee_id","salary","from_date","to_date"
+        "employee_id","from_date","to_date"
      )
 );
 
@@ -77,7 +77,7 @@ CREATE TABLE "title" (
     "from_date" date   NOT NULL,
     "to_date" date   NOT NULL,
     CONSTRAINT "pk_title" PRIMARY KEY (
-        "employee_id","title","from_date","to_date"
+        "employee_id","from_date","to_date"
      )
 );
 
